@@ -86,6 +86,9 @@ h2 {
 
 .container {
   display: flex;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* About Me */
@@ -108,10 +111,16 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width:500px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+}
+
+.text-justify p {
+  text-indent: 15px;
+  text-align: justify;
+  letter-spacing: 3px;
 }
 
 /* Skills */
@@ -137,6 +146,7 @@ h2 {
 .skill img {
   height: 35px;
   align-items: center;
+  margin-top: 9px;
 }
 
 .skills h6 {
